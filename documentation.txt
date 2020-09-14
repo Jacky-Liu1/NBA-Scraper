@@ -1,0 +1,8 @@
+Setup:
+python3 -m venv nba                 (Creates a virtual environment name nba)
+source ./nba/bin/activate           (Activates virtual environment)
+pip install -r requirements.txt     (Install each dependicies in requirements.txt)
+make sure to get chromedriver install in the same directory
+
+To run:
+python3 nba_scraper.py
